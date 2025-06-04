@@ -1,0 +1,8 @@
+{
+  "graphs": {
+    "agent": "./src/index.ts:agent"
+  },
+  "env": {
+    "PROJECT_ID": "pokutuna-playground"
+  }
+}

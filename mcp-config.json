@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    },
+    "misc": {
+      "type": "stdio",
+      "command": "bash",
+      "args": [
+        "/Users/pokutuna/Dropbox/mcp-server-bash/mcp.sh"
+      ]
+    }
+  }
+}
