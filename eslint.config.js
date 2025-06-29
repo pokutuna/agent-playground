@@ -16,6 +16,8 @@ export default config(
   {
     rules: {
       "new-cap": "off",
+      "@susisu/safe-typescript/no-type-assertion": "off",
+      "@susisu/safe-typescript/no-unsafe-object-property-overwrite": "off",
     },
   },
   {

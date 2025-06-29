@@ -3,7 +3,8 @@
     "playwright": {
       "command": "npx",
       "args": [
-        "@playwright/mcp@latest"
+        "@playwright/mcp@latest",
+        "--viewport-size=1440,900"
       ]
     },
     "misc": {

@@ -1,6 +1,7 @@
 {
   "graphs": {
-    "agent": "./src/index.ts:agent"
+    "minimal-mcp": "./src/agents/minimal-mcp/index.ts:agent",
+    "long-browsing": "./src/agents/long-browsing/index.ts:agent"
   },
   "env": {
     "PROJECT_ID": "pokutuna-playground"

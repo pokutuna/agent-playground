@@ -1,16 +1,17 @@
 {
   "name": "agent-playground",
   "version": "1.0.0",
-  "description": "",
   "private": true,
+  "description": "",
   "type": "module",
   "scripts": {
     "build": "tsc && vite build",
+    "dev": "npx @langchain/langgraph-cli dev",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -20,9 +21,11 @@
     "@langchain/langgraph": "^0.3.5",
     "@langchain/mcp-adapters": "^0.5.2",
     "@playwright/mcp": "^0.0.29",
+    "vitest": "^3.2.4",
     "zod": "^3.25.42"
   },
   "devDependencies": {
+    "@langchain/langgraph-cli": "^0.0.40",
     "@susisu/eslint-config": "^0.0.97",
     "@types/node": "^22.15.29",
     "eslint": "^9.28.0",

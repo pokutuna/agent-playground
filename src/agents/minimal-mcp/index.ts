@@ -1,6 +1,6 @@
 import { createReactAgent } from "@langchain/langgraph/prebuilt";
-import { toolsMCPServers } from "./mcp";
-import { env } from "./env";
+import { toolsMCPServers } from "../../mcp";
+import { env } from "../../env";
 import { ChatVertexAI } from "@langchain/google-vertexai";
 
 const model = new ChatVertexAI({
